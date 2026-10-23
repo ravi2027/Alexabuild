@@ -1,7 +1,6 @@
 "use client";
 
 import { MCPLogEntry } from "@/types";
-import { formatTime } from "@/lib/data";
 
 interface MCPLogPanelProps {
   logs: MCPLogEntry[];
